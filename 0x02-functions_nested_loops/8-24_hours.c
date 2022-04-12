@@ -6,6 +6,7 @@
  */
 void jack_bauer(void)
 {
+	int jack_baur(void);
 	int h1;
 	int h2;
 	int m1;
@@ -39,4 +40,5 @@ void jack_bauer(void)
 		h1++;
 	}
 	h2++;
+	return (0);
 }
