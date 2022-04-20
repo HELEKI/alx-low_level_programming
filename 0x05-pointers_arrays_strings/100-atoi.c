@@ -18,7 +18,7 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	for (int i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
+	for (‘ -std = c99’, ‘ -std = gnu99’, ‘ -std = c11’)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
