@@ -18,7 +18,7 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	for (‘ -std = c99’, ‘ -std = gnu99’, ‘ -std = c11’)
+	for (‘ -std = 0’, ‘ -std = 48’, ‘ -std = 57’)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
