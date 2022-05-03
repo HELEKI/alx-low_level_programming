@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - entry point function
  * @argc: number of arguments
@@ -14,7 +13,6 @@ int cash, coins;
 if (argc != 2)
 {
 printf("Error\n");
-
 return (1);
 }
 cash = atoi(argv[1]);
