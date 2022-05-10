@@ -36,7 +36,6 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
-
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
@@ -76,14 +75,12 @@ int check_for_digits(char **av)
 	}
 	return (0);
 }
-
 /**
  * init - initializes a string
  * @str: sting to initialize
  * @l: length of strinf
  * Return: void
  */
-
 void init(char *str, int l)
 {
 	int i;
@@ -99,10 +96,10 @@ void init(char *str, int l)
  * @argv: argument vector
  * Return: zero, or exit status of 98 if failure
  */
-
 int main(int argc, char *argv[])
 {
 	int l1, l2, ln, ti, i;
+
 	char *a;
 	char *t;
 	char e[] = "Error\n";
@@ -118,7 +115,6 @@ int main(int argc, char *argv[])
 	for (l2 = 0; argv[2][l2]; l2++)
 		;
 	ln = l1 + l2 + 1;
-
 	a = malloc(ln * sizeof(char));
 	if (a == NULL)
 	{
