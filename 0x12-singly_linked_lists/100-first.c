@@ -11,5 +11,5 @@ void print_something(void)
 
 	printf("Sanity with alittle arrogance,\n"
 
-	       "Ni kujilombotove tu huku!\n");
+	       "Self love!\n");
 }
